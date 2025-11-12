@@ -92,7 +92,7 @@ document.getElementById("signUp-btn")?.addEventListener("click", () => {
 
   createUserWithEmailAndPassword(auth, signupEmail, signupPassword)
    .then(() => {
-    alert("Login Successfully");
+    alert("SignUp Successfully");
       window.location.href = "welcome.html";
    })
      .catch (error => document.getElementById("error").innerText = error.message)
