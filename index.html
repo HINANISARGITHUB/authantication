@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>
+        signUp
+    </h1>
+
+    <div class="container">
+        <input type="email" name="email" id="signup-email" placeholder="Enter your email" required>
+        <input type="password" name="password" id="signup-password" placeholder="Enter your password" required>
+
+        <button type="submit" id="signUp-btn" class="btn">SignUp</button>
+    <p class="signup-para">Already have an account?<a href="./login.html" class="">Login</a></p>
+
+    <button class="btn" id="google-btn">Continue with Google </button>
+    <button class="btn" id="githup-btn">Continue with githup </button>
+
+
+        <p id="error"></p>
+    </div>
+ 
+    <script type="module" src="./app.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>
